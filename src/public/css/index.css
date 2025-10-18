@@ -1,0 +1,141 @@
+.header {
+  color: #8B7969;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:auto;
+  height:100px;
+  border-bottom: 1px solid #E0DFDE;
+  font-size:40px;
+}
+
+.title{
+  color: #8B7969;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 21px;
+  font-size: 35px;
+}
+
+.form{
+  color: #8B7969;
+  padding: 0px 0px 0px 243px;
+}
+
+.form__contents{
+  display:flex;
+  padding: 26px 0px 0px 0px;
+}
+
+.form__contents-title{
+  width:350px;
+  height:31px;
+  font-size:20px;
+}
+
+.form__contents-name input{
+  width:287.15px;
+  height:31px;
+  font-size:14px;
+  background: #F4F4F4;
+  border:none;
+}
+
+.form__contents-gender{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__contents-gender input{
+  width:auto;
+  height:31px;
+  font-size:14px;
+}
+
+.form__contents-email input{
+  width:618.82px;
+  height:31px;
+  font-size:14px;
+  background: #F4F4F4;
+  border:none;
+}
+
+.form__contents-tel input{
+  width:178.12px;
+  height:31px;
+  font-size:14px;
+  background: #F4F4F4;
+  border:none;
+  text-align:center;
+}
+
+.form__contents-address input{
+  width:618.82px;
+  height:31px;
+  font-size:14px;
+  background: #F4F4F4;
+  border:none;
+
+}
+
+.form__contents-building input{
+  width:618.82px;
+  height:31px;
+  font-size:14px;
+  background: #F4F4F4;
+  border:none;
+}
+
+.form__contents-category select{
+  width:331.68px;
+  height:31px;
+  font-size:14px;
+  background: #F4F4F4;
+  border:none;
+  color: #8B7969;
+  padding:0px 0px 0px 10px;
+}
+
+.form__contents-detail{
+  display:flex;
+  align-items: flex-start;
+}
+
+.form__contents-detail textarea{
+  width:618.82px;
+  height:129px;
+  font-size:14px;
+  background: #F4F4F4;
+  border:none;
+  padding: 10px 0px 0px 10px;
+}
+
+.form__contents-alert li{
+  font-size:14px;
+  color:red;
+  background-color: #f4f4f4;
+  display:inline;
+  width:287.15px;
+  margin:0px 0px 0px 350px;
+}
+
+.button{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 40px 10px 40px;
+}
+
+.button button{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:20px;
+  background-color: #82756A;
+  color:white;
+  border:none;
+  width:160px;
+  height:46px;
+}
